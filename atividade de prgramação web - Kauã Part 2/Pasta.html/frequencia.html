@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UPA.com.br - Frequência</title>
+<link rel="stylesheet" href="../Pasta.css/frequencia.css">
+</head>
+<body>
+<header>
+<div class="logo">
+🏥 UPA
+</div>
+<h1>Consulta da Fila</h1>
+<p>Digite sua senha para verificar sua posição.</p>
+</header>
+<div class="caixa">
+<input type="number" id="senha" placeholder="Digite sua senha">
+<button onclick="consultar()">
+Consultar
+</button>
+</div>
+<div id="resultado">
+<h2>Situação da Fila</h2>
+<div class="card">
+<p>Sua posição:</p>
+<h1 id="posicao">-</h1>
+</div>
+<div class="card">
+<p>Pessoas na sua frente</p>
+<h1 id="frente">-</h1>
+</div>
+<div class="card">
+<p>Tempo estimado</p>
+<h1 id="tempo">-</h1>
+</div>
+<div class="barra">
+<div id="progresso"></div>
+</div>
+</div>
+<script src="../Pasta.script/frequencia.js"></script>
+</body>
+</html>

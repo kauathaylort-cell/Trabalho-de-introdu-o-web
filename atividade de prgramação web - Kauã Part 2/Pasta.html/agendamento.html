@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPA - Agendamento</title>
+    <link rel="stylesheet" href="../Pasta.css/agendamento.css">
+</head>
+<body>
+    <header>
+        <h1>Agendamento Online</h1>
+        <p>Converse com nosso atendente virtual e solicite seu atendimento.</p>
+    </header>
+    <main>
+        <section class="chat">
+            <button onclick="mostrarMensagem()">
+                Iniciar Conversa
+            </button>
+            <div id="chatBox"></div>
+            <form id="formulario">
+                <input type="text" id="nome" placeholder="Nome completo" required>
+                <input type="number" id="idade" placeholder="Idade" required>
+                <input type="text" id="cpf" placeholder="CPF" required>
+                <input type="text" id="sintomas" placeholder="Descreva os sintomas" required>
+                <button type="button" onclick="agendar()">
+                    Confirmar Agendamento
+                </button>
+            </form>
+        </section>
+    </main>
+</body>
+<script src="../Pasta.script/arquivo.js"></script>
+</html>
